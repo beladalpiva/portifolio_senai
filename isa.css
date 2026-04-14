@@ -1,11 +1,4 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #e5e5e5;
@@ -16,21 +9,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #a2008279;
+    background-color: #80266eb7;
     color: aliceblue;
     padding: 15px 40px;
 }
 
-
-.logo {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-
 .menu {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .menu .item {
@@ -45,27 +31,65 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     transition: 0.3s;
+    
 }
 
-
 .banner {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     text-align: center;
-    padding: 80px 20px;
-    background-color: #e5e5e5;
+    padding: 350px;
+    background-color: #d198d3;
 }
 
 .banner h2 {
     font-size: 32px;
-    color: #eb07bdce;
+    color: #80266eb7;
     margin-bottom: 10px;
 }
 
 .banner p {
-    color: #000;
+    color: white;
     font-size: 18px;
+}
+
+.projetos {
+    background-color: #80266eb7;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projeto{
+    flex: 1 1 250px;
+    background: #d198d3;
+    border: 1px solid #d198d3;
+    padding: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.projetos h1 {
+    color: #d198d3;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.finales{
+    text-align: center;
+    background-color: #d198d3;
+    padding: 230px;
+}
+
+.finales h1{
+    font-size: xx-large;
+    color: #80266eb7;
 }
