@@ -15,6 +15,7 @@ body {
 }
 
 .menu {
+
     display: flex;
     gap: 30px;
 }
@@ -68,7 +69,7 @@ body {
     flex: 1 1 250px;
     background: #d198d3;
     border: 1px solid #d198d3;
-    padding: 180px;
+    padding: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,6 +91,14 @@ body {
 }
 
 .finales h1{
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
     font-size: xx-large;
     color: #80266eb7;
 }
+
+    .icones{
+        font-size: 15px;
+        flex: 2px;
+    }
