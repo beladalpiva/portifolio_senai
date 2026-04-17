@@ -59,10 +59,9 @@ body {
     background-color: #80266eb7;
     padding: 50px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 .projeto{
@@ -101,4 +100,12 @@ body {
     .icones{
         font-size: 15px;
         flex: 2px;
+    }
+
+    .projeto:hover{
+        background-color: #eb07bdce;
+        color: white;
+        padding: 8px 10px;
+        border-radius: 5px;
+
     }
